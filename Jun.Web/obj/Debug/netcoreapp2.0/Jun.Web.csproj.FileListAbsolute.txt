@@ -1,0 +1,11 @@
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Web.deps.json
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Web.runtimeconfig.json
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Web.runtimeconfig.dev.json
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Web.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Web.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.csproj.CoreCompileInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.AssemblyInfoInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.AssemblyInfo.cs
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.pdb

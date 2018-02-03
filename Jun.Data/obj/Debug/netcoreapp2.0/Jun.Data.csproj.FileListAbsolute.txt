@@ -1,0 +1,5 @@
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Core.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.csproj.CoreCompileInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.AssemblyInfoInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.AssemblyInfo.cs

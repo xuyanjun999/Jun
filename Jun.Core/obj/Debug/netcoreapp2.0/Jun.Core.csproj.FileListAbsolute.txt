@@ -1,0 +1,8 @@
+F:\Visual Studio 2017\Projects\Jun\Jun.Core\bin\Debug\netcoreapp2.0\Jun.Core.deps.json
+F:\Visual Studio 2017\Projects\Jun\Jun.Core\bin\Debug\netcoreapp2.0\Jun.Core.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Core\obj\Debug\netcoreapp2.0\Jun.Core.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Core\obj\Debug\netcoreapp2.0\Jun.Core.csproj.CoreCompileInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Core\obj\Debug\netcoreapp2.0\Jun.Core.AssemblyInfoInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Core\obj\Debug\netcoreapp2.0\Jun.Core.AssemblyInfo.cs
+F:\Visual Studio 2017\Projects\Jun\Jun.Core\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Core\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml
