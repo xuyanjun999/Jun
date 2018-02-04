@@ -1,0 +1,13 @@
+C:\SGProject\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Core.dll
+C:\SGProject\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.csprojResolveAssemblyReference.cache
+C:\SGProject\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.csproj.CoreCompileInputs.cache
+C:\SGProject\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.AssemblyInfoInputs.cache
+C:\SGProject\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.AssemblyInfo.cs
+C:\SGProject\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.deps.json
+C:\SGProject\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+C:\SGProject\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
+C:\SGProject\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\SGProject\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Core.pdb
+C:\SGProject\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\SGProject\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+C:\SGProject\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb

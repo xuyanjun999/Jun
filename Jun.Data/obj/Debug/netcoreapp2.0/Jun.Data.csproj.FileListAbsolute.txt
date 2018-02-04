@@ -3,3 +3,18 @@ F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.csp
 F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.csproj.CoreCompileInputs.cache
 F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.AssemblyInfoInputs.cache
 F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.AssemblyInfo.cs
+C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Core.dll
+C:\SGProject\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.csprojResolveAssemblyReference.cache
+C:\SGProject\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.csproj.CoreCompileInputs.cache
+C:\SGProject\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.AssemblyInfoInputs.cache
+C:\SGProject\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.AssemblyInfo.cs
+C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Data.deps.json
+C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Data.dll
+C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Data.pdb
+C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Core.pdb
+C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\SGProject\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.dll
+C:\SGProject\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.pdb
+C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb

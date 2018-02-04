@@ -1,0 +1,9 @@
+C:\SGProject\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Domain.Service.deps.json
+C:\SGProject\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Domain.Service.dll
+C:\SGProject\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Domain.Service.pdb
+C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.csprojResolveAssemblyReference.cache
+C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.csproj.CoreCompileInputs.cache
+C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.AssemblyInfoInputs.cache
+C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.AssemblyInfo.cs
+C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.dll
+C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.pdb

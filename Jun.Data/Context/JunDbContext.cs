@@ -1,5 +1,6 @@
 ﻿using Jun.Core.Dependency;
 using Jun.Core.Reflection;
+using Jun.Domain.Entity.Sys;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,16 +15,22 @@ namespace Jun.Data.Context
 
         }
 
+        public DbSet<MenuEntity> dbSet { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            var typeFinder = IocManager.Instance.Resolve<ITypeFinder>();
+            //var typeFinder = IocManager.Instance.Resolve<ITypeFinder>();
 
-            var typeMaps = typeFinder.Find(x => typeof(IEntityTypeConfiguration<>).IsAssignableFrom(x));
+            var typeFinder = new TypeFinder();
+
+            var typeMaps = typeFinder.Find(typeof(IEntityTypeConfiguration<>));
 
             foreach (var typeMap in typeMaps)
             {
                 if (typeMap.FullName.Contains("EntityConfigurationBase"))
+                    continue;
+                if (typeMap.FullName.Contains("Microsoft.EntityFrameworkCore"))
                     continue;
                 dynamic map = Activator.CreateInstance(typeMap);
                 modelBuilder.ApplyConfiguration(map);

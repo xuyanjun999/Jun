@@ -24,7 +24,7 @@ namespace Jun.Core.Domain.Entity
         /// <summary>
         /// 图标资源
         /// </summary>
-        string IconRes { get; set; }
+        string Img { get; set; }
 
         /// <summary>
         /// 节点是否已经勾选
@@ -36,10 +36,5 @@ namespace Jun.Core.Domain.Entity
         /// </summary>
         bool Expanded { get; set; }
 
-        /// <summary>
-        /// 格式化节点属性值
-        /// </summary>
-        /// <param name="context"></param>
-        void FormatTreeNodeValue(object context);
     }
 }

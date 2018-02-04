@@ -3,3 +3,6 @@
 ################################################################################
 
 /Jun.Domain.Service/bin/Debug/netcoreapp2.0
+/Jun.Data/bin/Debug/netcoreapp2.0
+/Jun.DataMigrate/bin/Debug/netcoreapp2.0
+/Jun.Domain.Service/obj/Release/netcoreapp2.0

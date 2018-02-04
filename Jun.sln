@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A24C5528-A1A3-4666-9301-00BD6B10FDE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{463B2D7C-E553-42B0-9353-D61230076427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jun.Web", "Jun.Web\Jun.Web.csproj", "{15C29C69-4EDF-4F56-8331-A4FE77540320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jun.Web", "Jun.Web\Jun.Web.csproj", "{15C29C69-4EDF-4F56-8331-A4FE77540320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jun.Core", "Jun.Core\Jun.Core.csproj", "{9F79B91F-59B2-4720-8EBD-6DF770F4D6F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jun.Core", "Jun.Core\Jun.Core.csproj", "{9F79B91F-59B2-4720-8EBD-6DF770F4D6F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jun.Data", "Jun.Data\Jun.Data.csproj", "{DE860C6D-A487-4878-ACC6-37F91BEE2C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jun.Data", "Jun.Data\Jun.Data.csproj", "{DE860C6D-A487-4878-ACC6-37F91BEE2C25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jun.Domain.Entity", "Jun.Domain.Entity\Jun.Domain.Entity.csproj", "{2B57EFE6-4347-4FF6-9870-65CBF41FE64F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jun.Domain.Entity", "Jun.Domain.Entity\Jun.Domain.Entity.csproj", "{2B57EFE6-4347-4FF6-9870-65CBF41FE64F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jun.Domain.Service", "Jun.Domain.Service\Jun.Domain.Service.csproj", "{7BA0EF0E-8362-4056-B23A-FC1E19F9E72D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jun.Domain.Service", "Jun.Domain.Service\Jun.Domain.Service.csproj", "{7BA0EF0E-8362-4056-B23A-FC1E19F9E72D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jun.DataMigrate", "Jun.DataMigrate\Jun.DataMigrate.csproj", "{6F11ECB0-FC63-44CB-AD09-F324C0F8DAF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{7BA0EF0E-8362-4056-B23A-FC1E19F9E72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BA0EF0E-8362-4056-B23A-FC1E19F9E72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BA0EF0E-8362-4056-B23A-FC1E19F9E72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F11ECB0-FC63-44CB-AD09-F324C0F8DAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F11ECB0-FC63-44CB-AD09-F324C0F8DAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F11ECB0-FC63-44CB-AD09-F324C0F8DAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F11ECB0-FC63-44CB-AD09-F324C0F8DAF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{DE860C6D-A487-4878-ACC6-37F91BEE2C25} = {A24C5528-A1A3-4666-9301-00BD6B10FDE5}
 		{2B57EFE6-4347-4FF6-9870-65CBF41FE64F} = {A24C5528-A1A3-4666-9301-00BD6B10FDE5}
 		{7BA0EF0E-8362-4056-B23A-FC1E19F9E72D} = {A24C5528-A1A3-4666-9301-00BD6B10FDE5}
+		{6F11ECB0-FC63-44CB-AD09-F324C0F8DAF4} = {A24C5528-A1A3-4666-9301-00BD6B10FDE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7F69131-AD5F-4F76-A2D7-83D5579B203F}

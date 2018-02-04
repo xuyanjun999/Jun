@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xuyan\\.nuget\\packages\\": {},
+    "C:\\Users\\xuyanjun\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,17 +673,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Domain.Service\\Jun.Domain.Service.csproj",
+      "projectUniqueName": "C:\\SGProject\\Jun\\Jun.Domain.Service\\Jun.Domain.Service.csproj",
       "projectName": "Jun.Domain.Service",
-      "projectPath": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Domain.Service\\Jun.Domain.Service.csproj",
-      "packagesPath": "C:\\Users\\xuyan\\.nuget\\packages\\",
-      "outputPath": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Domain.Service\\obj\\",
+      "projectPath": "C:\\SGProject\\Jun\\Jun.Domain.Service\\Jun.Domain.Service.csproj",
+      "packagesPath": "C:\\Users\\xuyanjun\\.nuget\\packages\\",
+      "outputPath": "C:\\SGProject\\Jun\\Jun.Domain.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\xuyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\xuyanjun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

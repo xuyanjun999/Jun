@@ -5,11 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Jun.Core\Jun.Core.csproj" />
+    <ProjectReference Include="..\Jun.Domain.Entity\Jun.Domain.Entity.csproj" />
   </ItemGroup>
 
   <ItemGroup>
