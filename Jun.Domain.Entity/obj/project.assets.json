@@ -2100,7 +2100,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "zbR80K8X4hdRSu9gRhVMKwRqyh4rzrSDCYCoLu+DILscnxwpD4tlSRFf8qg/yjTjBTit7shkdRGn5pM7R9/72A==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -3018,7 +3018,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xuyan\\.nuget\\packages\\": {},
+    "C:\\Users\\xuyanjun\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -3027,17 +3027,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Domain.Entity\\Jun.Domain.Entity.csproj",
+      "projectUniqueName": "C:\\SGProject\\Jun\\Jun.Domain.Entity\\Jun.Domain.Entity.csproj",
       "projectName": "Jun.Domain.Entity",
-      "projectPath": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Domain.Entity\\Jun.Domain.Entity.csproj",
-      "packagesPath": "C:\\Users\\xuyan\\.nuget\\packages\\",
-      "outputPath": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Domain.Entity\\obj\\",
+      "projectPath": "C:\\SGProject\\Jun\\Jun.Domain.Entity\\Jun.Domain.Entity.csproj",
+      "packagesPath": "C:\\Users\\xuyanjun\\.nuget\\packages\\",
+      "outputPath": "C:\\SGProject\\Jun\\Jun.Domain.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\xuyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\xuyanjun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3050,8 +3050,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Core\\Jun.Core.csproj": {
-              "projectPath": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Core\\Jun.Core.csproj"
+            "C:\\SGProject\\Jun\\Jun.Core\\Jun.Core.csproj": {
+              "projectPath": "C:\\SGProject\\Jun\\Jun.Core\\Jun.Core.csproj"
             }
           }
         }
