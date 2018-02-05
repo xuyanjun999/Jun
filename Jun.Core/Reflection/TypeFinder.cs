@@ -12,8 +12,9 @@ namespace Jun.Core.Reflection
         private readonly object _syncObj = new object();
         private Type[] _types;
 
-        public Type[] Find(Func<Type, bool> predicate)
+        public Type[] Find(Type assignTypeFrom)
         {
+            Func<Type, bool> predicate = new Func<Type, bool>(t=>assignTypeFrom.IsAssignableFrom(t) || (assignTypeFrom.IsGenericTypeDefinition && DoesTypeImplementOpenGeneric(t, assignTypeFrom)));
             return GetAllTypes().Where(predicate).ToArray();
         }
 
@@ -69,6 +70,33 @@ namespace Jun.Core.Reflection
             }
 
             return allTypes;
+        }
+
+        /// <summary>
+        /// Does type implement generic?
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="openGeneric"></param>
+        /// <returns></returns>
+        protected virtual bool DoesTypeImplementOpenGeneric(Type type, Type openGeneric)
+        {
+            try
+            {
+                var genericTypeDefinition = openGeneric.GetGenericTypeDefinition();
+                foreach (var implementedInterface in type.FindInterfaces((objType, objCriteria) => true, null))
+                {
+                    if (!implementedInterface.IsGenericType)
+                        continue;
+
+                    var isMatch = genericTypeDefinition.IsAssignableFrom(implementedInterface.GetGenericTypeDefinition());
+                    return isMatch;
+                }
+                return false;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Jun.Core.Reflection
 {
     public interface ITypeFinder: ISingletonDependency
     {
-        Type[] Find(Func<Type, bool> predicate);
+        Type[] Find(Type assignTypeFrom);
 
         Type[] FindAll();
     }

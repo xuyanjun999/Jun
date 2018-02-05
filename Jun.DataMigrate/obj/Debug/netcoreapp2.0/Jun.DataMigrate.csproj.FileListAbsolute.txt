@@ -1,0 +1,17 @@
+C:\SGProject\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.csproj.CoreCompileInputs.cache
+C:\SGProject\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.AssemblyInfoInputs.cache
+C:\SGProject\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.AssemblyInfo.cs
+C:\SGProject\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.csprojResolveAssemblyReference.cache
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.deps.json
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.runtimeconfig.json
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.runtimeconfig.dev.json
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.dll
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.pdb
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Core.dll
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Core.pdb
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\SGProject\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.dll
+C:\SGProject\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.pdb
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
