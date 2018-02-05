@@ -13128,6 +13128,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Web\\Jun.Web.csproj",
       "projectName": "Jun.Web",
@@ -13168,7 +13171,6 @@
             "version": "[2.0.5, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true

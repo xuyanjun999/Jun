@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\xuyan\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Jun.1697271464.00" t="ExcludeRecursive" />
+    <e p="F:\Visual Studio 2017\Projects\Jun" t="IncludeFlat">
+      <e p="Jun.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="Configuration" t="Include">
+          <e p="FebConfig.cs" t="Include" />
+          <e p="IConfig.cs" t="Include" />
+        </e>
+        <e p="Dependency" t="Include">
+          <e p="IocManager.cs" t="Include" />
+          <e p="LifeStyle" t="Include">
+            <e p="IScopedDependency.cs" t="Include" />
+            <e p="ISingletonDependency.cs" t="Include" />
+            <e p="ITransientDependency.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Domain" t="Include">
+          <e p="Entity" t="Include">
+            <e p="BaseAcsRecEntity.cs" t="Include" />
+            <e p="BaseAcsRecTreeNodeEntity.cs" t="Include" />
+            <e p="BaseEntity.cs" t="Include" />
+            <e p="BaseTreeNodeEntity.cs" t="Include" />
+            <e p="CommonTreeNodeEntity.cs" t="Include" />
+            <e p="IAccessRecordEntity.cs" t="Include" />
+            <e p="IBaseEntity.cs" t="Include" />
+            <e p="ITreeNodeEntity.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Helper" t="Include">
+          <e p="CommonHelper.cs" t="Include" />
+          <e p="SecureHelper.cs" t="Include" />
+          <e p="StringHelper.cs" t="Include" />
+          <e p="TypeHelper.cs" t="Include" />
+          <e p="ValidateHelper.cs" t="Include" />
+          <e p="WebHelper.cs" t="Include" />
+        </e>
+        <e p="Jun.Core.csproj" t="IncludeRecursive" />
+        <e p="Modules" t="Include">
+          <e p="JunModule.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Jun.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Reflection" t="Include">
+          <e p="ITypeFinder.cs" t="Include" />
+          <e p="TypeFinder.cs" t="Include" />
+        </e>
+        <e p="Runtime" t="Include">
+          <e p="Cache" t="Include" />
+        </e>
+      </e>
+      <e p="Jun.Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Context" t="Include">
+          <e p="JunDbContext.cs" t="Include" />
+        </e>
+        <e p="Jun.Data.csproj" t="IncludeRecursive" />
+        <e p="Mapping" t="Include" />
+        <e p="Modules" t="Include">
+          <e p="DataModule.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Jun.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repository" t="Include" />
+      </e>
+      <e p="Jun.Domain.Entity" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="Jun.Domain.Entity.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Jun.Domain.Entity.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Jun.Domain.Service" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="Jun.Domain.Service.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Jun.Domain.Service.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Jun.sln" t="IncludeFlat" />
+      <e p="Jun.Web" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="bundleconfig.json" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Jun.Web.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="ErrorViewModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Jun.Web.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="DashBoard.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="favicon.ico" t="Include" />
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-theme.css" t="Include" />
+                  <e p="bootstrap-theme.css.map" t="Include" />
+                  <e p="bootstrap-theme.min.css" t="Include" />
+                  <e p="bootstrap-theme.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="glyphicons-halflings-regular.eot" t="Include" />
+                  <e p="glyphicons-halflings-regular.svg" t="Include" />
+                  <e p="glyphicons-halflings-regular.ttf" t="Include" />
+                  <e p="glyphicons-halflings-regular.woff" t="Include" />
+                  <e p="glyphicons-halflings-regular.woff2" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="npm.js" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="resource" t="Include">
+            <e p="css" t="Include">
+              <e p="common.css" t="Include" />
+              <e p="icons.css" t="Include" />
+              <e p="layout.css" t="Include" />
+            </e>
+            <e p="icons" t="Include">
+              <e p="_help.png" t="Include" />
+              <e p="add.gif" t="Include" />
+              <e p="addfolder.gif" t="Include" />
+              <e p="addnew.gif" t="Include" />
+              <e p="cancel.gif" t="Include" />
+              <e p="collapse.gif" t="Include" />
+              <e p="cut.png" t="Include" />
+              <e p="date.gif" t="Include" />
+              <e p="downgrade.gif" t="Include" />
+              <e p="download.gif" t="Include" />
+              <e p="edit.gif" t="Include" />
+              <e p="expand.gif" t="Include" />
+              <e p="filter.gif" t="Include" />
+              <e p="find.png" t="Include" />
+              <e p="folder-open.gif" t="Include" />
+              <e p="folder.gif" t="Include" />
+              <e p="goto.gif" t="Include" />
+              <e p="help.gif" t="Include" />
+              <e p="help.png" t="Include" />
+              <e p="lock.png" t="Include" />
+              <e p="new.gif" t="Include" />
+              <e p="no.png" t="Include" />
+              <e p="node.png" t="Include" />
+              <e p="noimage.gif" t="Include" />
+              <e p="nowait.gif" t="Include" />
+              <e p="ok.png" t="Include" />
+              <e p="open.gif" t="Include" />
+              <e p="print.gif" t="Include" />
+              <e p="redo.gif" t="Include" />
+              <e p="reload.png" t="Include" />
+              <e p="remove.gif" t="Include" />
+              <e p="save.gif" t="Include" />
+              <e p="search.gif" t="Include" />
+              <e p="sort.gif" t="Include" />
+              <e p="split.gif" t="Include" />
+              <e p="tip.png" t="Include" />
+              <e p="undo.gif" t="Include" />
+              <e p="unlock.gif" t="Include" />
+              <e p="upgrade.gif" t="Include" />
+              <e p="upload.gif" t="Include" />
+              <e p="user.png" t="Include" />
+              <e p="wait.gif" t="Include" />
+              <e p="warning.png" t="Include" />
+              <e p="zoomin.gif" t="Include" />
+              <e p="zoomout.gif" t="Include" />
+            </e>
+            <e p="icons.css" t="Include" />
+            <e p="images" t="Include">
+              <e p="seungee-logo.png" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="common" t="Include">
+                <e p="Base64.js" t="Include" />
+                <e p="Core.js" t="Include" />
+                <e p="GridHelper.js" t="Include" />
+                <e p="Portal.js" t="Include" />
+                <e p="ServerHandle.js" t="Include" />
+                <e p="SetUserRight.js" t="Include" />
+                <e p="ToolBarHelper.js" t="Include" />
+              </e>
+              <e p="echarts" t="Include">
+                <e p="echarts.common.min.js" t="Include" />
+              </e>
+              <e p="jquery" t="Include">
+                <e p="jquery-1.6.2.min.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+              </e>
+            </e>
+            <e p="ui" t="Include">
+              <e p="miniui" t="Include">
+                <e p="icons" t="Include">
+                  <e p="_help.png" t="Include" />
+                  <e p="add.gif" t="Include" />
+                  <e p="addfolder.gif" t="Include" />
+                  <e p="addnew.gif" t="Include" />
+                  <e p="cancel.gif" t="Include" />
+                  <e p="collapse.gif" t="Include" />
+                  <e p="cut.png" t="Include" />
+                  <e p="date.gif" t="Include" />
+                  <e p="downgrade.gif" t="Include" />
+                  <e p="download.gif" t="Include" />
+                  <e p="edit.gif" t="Include" />
+                  <e p="expand.gif" t="Include" />
+                  <e p="filter.gif" t="Include" />
+                  <e p="find.png" t="Include" />
+                  <e p="folder-open.gif" t="Include" />
+                  <e p="folder.gif" t="Include" />
+                  <e p="goto.gif" t="Include" />
+                  <e p="help.gif" t="Include" />
+                  <e p="help.png" t="Include" />
+                  <e p="lock.png" t="Include" />
+                  <e p="logout.gif" t="Include" />
+                  <e p="new.gif" t="Include" />
+                  <e p="no.png" t="Include" />
+                  <e p="node.png" t="Include" />
+                  <e p="noimage.gif" t="Include" />
+                  <e p="nowait.gif" t="Include" />
+                  <e p="ok.png" t="Include" />
+                  <e p="open.gif" t="Include" />
+                  <e p="print.gif" t="Include" />
+                  <e p="redo.gif" t="Include" />
+                  <e p="reload.png" t="Include" />
+                  <e p="remove.gif" t="Include" />
+                  <e p="save.gif" t="Include" />
+                  <e p="search.gif" t="Include" />
+                  <e p="sort.gif" t="Include" />
+                  <e p="split.gif" t="Include" />
+                  <e p="tip.png" t="Include" />
+                  <e p="undo.gif" t="Include" />
+                  <e p="unlock.gif" t="Include" />
+                  <e p="upgrade.gif" t="Include" />
+                  <e p="upload.gif" t="Include" />
+                  <e p="user.png" t="Include" />
+                  <e p="wait.gif" t="Include" />
+                  <e p="warning.png" t="Include" />
+                  <e p="zoomin.gif" t="Include" />
+                  <e p="zoomout.gif" t="Include" />
+                </e>
+                <e p="icons.css" t="Include" />
+                <e p="images" t="Include">
+                  <e p="_pager" t="Include">
+                    <e p="first.gif" t="Include" />
+                    <e p="last.gif" t="Include" />
+                    <e p="next.gif" t="Include" />
+                    <e p="prev.gif" t="Include" />
+                  </e>
+                  <e p="button" t="Include">
+                    <e p="button.png" t="Include" />
+                    <e p="disabled.png" t="Include" />
+                    <e p="hover.png" t="Include" />
+                    <e p="icons.png" t="Include" />
+                    <e p="menu_arrow.png" t="Include" />
+                    <e p="pressed.png" t="Include" />
+                    <e p="split-allow-bottom.gif" t="Include" />
+                    <e p="split_arrow.png" t="Include" />
+                  </e>
+                  <e p="buttonedit" t="Include">
+                    <e p="_icon3.gif" t="Include" />
+                    <e p="button.png" t="Include" />
+                    <e p="close.gif" t="Include" />
+                    <e p="date.gif" t="Include" />
+                    <e p="down.gif" t="Include" />
+                    <e p="error.gif" t="Include" />
+                    <e p="filter.png" t="Include" />
+                    <e p="hover.png" t="Include" />
+                    <e p="icon1.gif" t="Include" />
+                    <e p="icon2.gif" t="Include" />
+                    <e p="pressed.png" t="Include" />
+                    <e p="up.gif" t="Include" />
+                  </e>
+                  <e p="calendar" t="Include">
+                    <e p="button.png" t="Include" />
+                    <e p="header.png" t="Include" />
+                    <e p="months.gif" t="Include" />
+                    <e p="next.gif" t="Include" />
+                    <e p="prev.gif" t="Include" />
+                  </e>
+                  <e p="datepicker" t="Include">
+                    <e p="date.gif" t="Include" />
+                  </e>
+                  <e p="dragdrop" t="Include">
+                    <e p="drop-add.gif" t="Include" />
+                    <e p="drop-between.gif" t="Include" />
+                    <e p="drop-no.gif" t="Include" />
+                    <e p="drop-over.gif" t="Include" />
+                    <e p="drop-under.gif" t="Include" />
+                    <e p="drop-yes.gif" t="Include" />
+                  </e>
+                  <e p="gantt" t="Include">
+                    <e p="arrow_blue_down.gif" t="Include" />
+                    <e p="arrow_blue_left.gif" t="Include" />
+                    <e p="arrow_blue_right.gif" t="Include" />
+                    <e p="arrow_blue_up.gif" t="Include" />
+                    <e p="arrow_red_down.gif" t="Include" />
+                    <e p="arrow_red_left.gif" t="Include" />
+                    <e p="arrow_red_right.gif" t="Include" />
+                    <e p="arrow_red_up.gif" t="Include" />
+                    <e p="baseline-milestone.gif" t="Include" />
+                    <e p="collapse.gif" t="Include" />
+                    <e p="constraint-finish.gif" t="Include" />
+                    <e p="constraint-start.gif" t="Include" />
+                    <e p="expand.gif" t="Include" />
+                    <e p="finished.gif" t="Include" />
+                    <e p="gvdp.gif" t="Include" />
+                    <e p="header.gif" t="Include" />
+                    <e p="header_bg.gif" t="Include" />
+                    <e p="milestone-red.gif" t="Include" />
+                    <e p="milestone.gif" t="Include" />
+                    <e p="ms-task.gif" t="Include" />
+                    <e p="notes.gif" t="Include" />
+                    <e p="offday.gif" t="Include" />
+                    <e p="summary-top.gif" t="Include" />
+                    <e p="summary.gif" t="Include" />
+                    <e p="summary2.gif" t="Include" />
+                    <e p="taskbg.gif" t="Include" />
+                    <e p="taskbg2.gif" t="Include" />
+                    <e p="taskstatus.gif" t="Include" />
+                    <e p="title_bg.png" t="Include" />
+                    <e p="warning.png" t="Include" />
+                  </e>
+                  <e p="grid" t="Include">
+                    <e p="col-move-bottom.gif" t="Include" />
+                    <e p="col-move-top.gif" t="Include" />
+                    <e p="collapse.gif" t="Include" />
+                    <e p="dirty.gif" t="Include" />
+                    <e p="expand.gif" t="Include" />
+                    <e p="footer.png" t="Include" />
+                    <e p="header.png" t="Include" />
+                    <e p="icons.png" t="Include" />
+                    <e p="loading.gif" t="Include" />
+                    <e p="no.gif" t="Include" />
+                    <e p="ok.gif" t="Include" />
+                    <e p="resize.gif" t="Include" />
+                    <e p="sort_asc.gif" t="Include" />
+                    <e p="sort_desc.gif" t="Include" />
+                    <e p="sorticon.gif" t="Include" />
+                  </e>
+                  <e p="header.gif" t="Include" />
+                  <e p="icons" t="Include">
+                    <e p="checkbox.gif" t="Include" />
+                    <e p="radio.gif" t="Include" />
+                  </e>
+                  <e p="layout" t="Include">
+                    <e p="east.gif" t="Include" />
+                    <e p="header.png" t="Include" />
+                    <e p="north.gif" t="Include" />
+                    <e p="south.gif" t="Include" />
+                    <e p="west.gif" t="Include" />
+                  </e>
+                  <e p="listbox" t="Include">
+                    <e p="error.gif" t="Include" />
+                    <e p="header.png" t="Include" />
+                  </e>
+                  <e p="menu" t="Include">
+                    <e p="arrow.png" t="Include" />
+                    <e p="bottom-arrow.gif" t="Include" />
+                    <e p="checked.gif" t="Include" />
+                    <e p="hallow.gif" t="Include" />
+                    <e p="hmenubg.png" t="Include" />
+                    <e p="item.png" t="Include" />
+                    <e p="menubg.gif" t="Include" />
+                    <e p="pressed.png" t="Include" />
+                    <e p="top-arrow.gif" t="Include" />
+                  </e>
+                  <e p="messagebox" t="Include">
+                    <e p="icon-error.gif" t="Include" />
+                    <e p="icon-info.gif" t="Include" />
+                    <e p="icon-question.gif" t="Include" />
+                    <e p="icon-warning.gif" t="Include" />
+                    <e p="loading.gif" t="Include" />
+                  </e>
+                  <e p="mygantt" t="Include">
+                    <e p="header.png" t="Include" />
+                  </e>
+                  <e p="navbar" t="Include">
+                    <e p="header.png" t="Include" />
+                  </e>
+                  <e p="pager" t="Include">
+                    <e p="first.gif" t="Include" />
+                    <e p="last.gif" t="Include" />
+                    <e p="next.gif" t="Include" />
+                    <e p="prev.gif" t="Include" />
+                    <e p="reload.png" t="Include" />
+                  </e>
+                  <e p="panel" t="Include">
+                    <e p="header.png" t="Include" />
+                    <e p="resize.gif" t="Include" />
+                  </e>
+                  <e p="rgantt" t="Include">
+                    <e p="bg.gif" t="Include" />
+                    <e p="cancel.gif" t="Include" />
+                    <e p="hdbg.gif" t="Include" />
+                    <e p="pc.gif" t="Include" />
+                    <e p="pc_03.gif" t="Include" />
+                  </e>
+                  <e p="splitter" t="Include">
+                    <e p="buttons.gif" t="Include" />
+                    <e p="mini-bottom.gif" t="Include" />
+                    <e p="mini-left.gif" t="Include" />
+                    <e p="mini-right.gif" t="Include" />
+                    <e p="mini-top.gif" t="Include" />
+                    <e p="resize.gif" t="Include" />
+                    <e p="resize_h.gif" t="Include" />
+                  </e>
+                  <e p="supergrid" t="Include">
+                    <e p="btn.gif" t="Include" />
+                    <e p="col-move-bottom.gif" t="Include" />
+                    <e p="col-move-top.gif" t="Include" />
+                    <e p="datagrid_header_bg.gif" t="Include" />
+                    <e p="datagrid_row_collapse.gif" t="Include" />
+                    <e p="datagrid_row_expand.gif" t="Include" />
+                    <e p="datagrid_sort_asc.gif" t="Include" />
+                    <e p="datagrid_sort_desc.gif" t="Include" />
+                    <e p="datagrid_title_bg.png" t="Include" />
+                    <e p="dirty.gif" t="Include" />
+                    <e p="header-hover.gif" t="Include" />
+                    <e p="header-pressed.gif" t="Include" />
+                    <e p="header.gif" t="Include" />
+                    <e p="invalid_line.gif" t="Include" />
+                    <e p="loading.gif" t="Include" />
+                    <e p="no.gif" t="Include" />
+                    <e p="ok.gif" t="Include" />
+                    <e p="row_collapse.gif" t="Include" />
+                    <e p="row_expand.gif" t="Include" />
+                    <e p="rowselected.gif" t="Include" />
+                    <e p="sort_asc.gif" t="Include" />
+                    <e p="sort_desc.gif" t="Include" />
+                    <e p="title_bg.png" t="Include" />
+                  </e>
+                  <e p="supertree" t="Include">
+                    <e p="arrows.gif" t="Include" />
+                    <e p="collapse.gif" t="Include" />
+                    <e p="expand.gif" t="Include" />
+                    <e p="file.gif" t="Include" />
+                    <e p="folder-open.gif" t="Include" />
+                    <e p="folder.gif" t="Include" />
+                    <e p="loading.gif" t="Include" />
+                  </e>
+                  <e p="tabs" t="Include">
+                    <e p="allow_left.gif" t="Include" />
+                    <e p="allow_right.gif" t="Include" />
+                    <e p="close.gif" t="Include" />
+                    <e p="down.gif" t="Include" />
+                    <e p="hover.png" t="Include" />
+                    <e p="tab.png" t="Include" />
+                  </e>
+                  <e p="textbox" t="Include">
+                    <e p="error.gif" t="Include" />
+                  </e>
+                  <e p="textboxlist" t="Include">
+                    <e p="close.gif" t="Include" />
+                    <e p="error.gif" t="Include" />
+                    <e p="loading.gif" t="Include" />
+                  </e>
+                  <e p="toolbar" t="Include">
+                    <e p="toolbar.png" t="Include" />
+                  </e>
+                  <e p="tools" t="Include">
+                    <e p="close.gif" t="Include" />
+                    <e p="collapse.gif" t="Include" />
+                    <e p="expand.gif" t="Include" />
+                    <e p="max.gif" t="Include" />
+                    <e p="min.gif" t="Include" />
+                    <e p="refresh.gif" t="Include" />
+                    <e p="restore.gif" t="Include" />
+                    <e p="search.gif" t="Include" />
+                  </e>
+                  <e p="tooltip" t="Include">
+                    <e p="wait.gif" t="Include" />
+                  </e>
+                  <e p="tree" t="Include">
+                    <e p="arrows.gif" t="Include" />
+                    <e p="button.png" t="Include" />
+                    <e p="collapse.gif" t="Include" />
+                    <e p="collapseLine - 副本.gif" t="Include" />
+                    <e p="collapseLine.gif" t="Include" />
+                    <e p="expand.gif" t="Include" />
+                    <e p="expandLine.gif" t="Include" />
+                    <e p="file.png" t="Include" />
+                    <e p="firstAndlastcollapse.gif" t="Include" />
+                    <e p="firstAndlastexpand.gif" t="Include" />
+                    <e p="firstCollapseNode.gif" t="Include" />
+                    <e p="firstExpandNode.gif" t="Include" />
+                    <e p="folder-open.gif" t="Include" />
+                    <e p="folder.gif" t="Include" />
+                    <e p="hover.png" t="Include" />
+                    <e p="lastCollapseNode.gif" t="Include" />
+                    <e p="lastExpandNode.gif" t="Include" />
+                    <e p="lastline.gif" t="Include" />
+                    <e p="leaf.gif" t="Include" />
+                    <e p="loading.gif" t="Include" />
+                    <e p="radio_checked.gif" t="Include" />
+                    <e p="radio_unchecked.gif" t="Include" />
+                    <e p="treeline.gif" t="Include" />
+                    <e p="treeNodeLine.gif" t="Include" />
+                  </e>
+                  <e p="treegrid" t="Include">
+                    <e p="collapse.gif" t="Include" />
+                    <e p="expand.gif" t="Include" />
+                    <e p="file.png" t="Include" />
+                    <e p="folder.gif" t="Include" />
+                    <e p="loading.gif" t="Include" />
+                  </e>
+                  <e p="window" t="Include">
+                    <e p="footer.png" t="Include" />
+                    <e p="header.png" t="Include" />
+                  </e>
+                </e>
+                <e p="miniui.css" t="Include" />
+                <e p="miniui.js" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Libraries" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Presentation" t="Include" />
+    </e>
+  </component>
+</project>
