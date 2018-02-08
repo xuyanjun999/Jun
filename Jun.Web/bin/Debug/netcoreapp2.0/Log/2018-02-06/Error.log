@@ -1,0 +1,30 @@
+2018-02-06 14:20:52.3474 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE `SGEAP_Sys_Menu` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Code` longtext,
+    `CreateOn` datetime(6) NOT NULL,
+    `CreateStaffName` longtext,
+    `CreateUserId` int NOT NULL,
+    `IconResource` longtext,
+    `IsVisible` bit NOT NULL,
+    `Name` longtext,
+    `ParentId` int,
+    `Remark` longtext,
+    `SequenceIndex` int NOT NULL,
+    `Status` int NOT NULL,
+    `UpdateOn` datetime(6) NOT NULL,
+    `UpdateStaffName` longtext,
+    `UpdateUserId` int NOT NULL,
+    `Url` longtext,
+    CONSTRAINT `PK_SGEAP_Sys_Menu` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_SGEAP_Sys_Menu_SGEAP_Sys_Menu_ParentId` FOREIGN KEY (`ParentId`) REFERENCES `SGEAP_Sys_Menu` (`Id`) ON DELETE NO ACTION
+);
+2018-02-06 15:04:02.9107 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-06 15:04:38.5466 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-06 15:05:25.3337 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-06 15:19:39.3864 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-06 16:40:48.6369 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-06 16:41:13.1958 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-06 16:41:50.3277 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-06 16:42:39.5950 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-06 16:43:17.2515 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request

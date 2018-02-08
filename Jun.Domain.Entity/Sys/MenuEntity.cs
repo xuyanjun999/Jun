@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Jun.Domain.Entity.Sys
 {
+    [Table("SGEAP_Sys_Menu")]
     public class MenuEntity : BaseAcsRecTreeNodeEntity
     {
         /// <summary>
@@ -45,7 +46,7 @@ namespace Jun.Domain.Entity.Sys
         /// <summary>
         /// 父菜单ID
         /// </summary>
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
 
         /// <summary>
         /// 父菜单对象
@@ -56,21 +57,31 @@ namespace Jun.Domain.Entity.Sys
         /// 
         /// </summary>
         [NotMapped]
-        public override string Img
+        public override string IconCls
         {
             get
             {
                 return this.IconResource;
             }
         }
+
+        [NotMapped]
+        public override string Text
+        {
+            get
+            {
+                return this.Name;
+            }
+        }
+
     }
 
     public class MenuMap : EntityConfigurationBase<MenuEntity>
     {
         public override void Configure(EntityTypeBuilder<MenuEntity> builder)
         {
-            builder.ToTable("SGEAP_CORE_Menu");
-            builder.HasOne(x => x.Parent).WithMany().HasForeignKey(x => x.ParentID);
+            builder.ToTable("SGEAP_Sys_Menu");
+            builder.HasOne(x => x.Parent).WithMany().HasForeignKey(x => x.ParentId);
             base.Configure(builder);
         }
     }

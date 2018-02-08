@@ -1,0 +1,178 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mini-splitter" style="width:100%;height:100%;">
+    <div size="240" showCollapseButton="true">
+        <div class="mini-toolbar" style="padding:2px;border-top:0;border-left:0;border-right:0;">
+            <span style="padding-left:5px;">名称：</span>
+            <input class="mini-textbox" width="120" />
+            <a class="mini-button" iconCls="icon-search" plain="true">查找</a>
+        </div>
+        <div class="mini-fit">
+            <ul id="tree1" class="mini-tree" style="width:100%;"
+                showTreeIcon="true" textField="name" idField="id" parentField="parentId" dataField="data" resultAsTree="false"></ul>
+        </div>
+    </div>
+    <div showCollapseButton="true">
+        <div class="mini-toolbar" style="padding:2px;border-top:0;border-left:0;border-right:0;">
+            <table style="width:100%;">
+                <tr>
+                    <td style="width:100%;">
+                        <a class="mini-button" iconCls="icon-add"  onclick="add()">新增</a>
+                        <a class="mini-button" iconCls="icon-edit"  onclick="editRow()">编辑</a>
+                        <a class="mini-button" iconCls="icon-remove"  onclick="removeRow()">删除</a>
+                        <span class="separator"></span>
+                        <a class="mini-button" iconCls="icon-save"  onclick="saveData()">保存</a>
+                    </td>
+                    <td style="white-space:nowrap;">
+                        <a class="mini-button" iconCls="icon-reload"  onclick="reload()">刷新</a>
+                    </td>
+                </tr>
+            </table>
+
+
+
+        </div>
+        <div class="mini-fit">
+
+            <div id="grid1" class="mini-datagrid" style="width:100%;height:100%;" borderStyle="border:0;" 
+                 >
+                <div property="columns">
+                    <div type="checkcolumn"></div>
+                    <div type="indexcolumn"></div>
+
+                    <div field="CnName" width="120" headerAlign="center" allowSort="true">
+                        中文名称
+                        <input property="editor" class="mini-textbox" style="width:100%;" />
+                    </div>
+                    <div field="EnName" width="120" headerAlign="center" allowSort="true">
+                        英文名称
+                        <input property="editor" class="mini-textbox" style="width:100%;" />
+                        <input id="nameFilter" property="filter" class="mini-textbox" onvaluechanged="onNameFilterChanged" style="width:100%;" />
+                    </div>
+                    <div field="url" width="100" allowSort="true" align="center" headerAlign="center">
+                        Url
+                        <input property="editor" class="mini-textbox" style="width:100%;" data="Genders" />
+                    </div>
+                    <div field="SequenceIndex" width="100" allowSort="true">
+                        排序
+                        <input property="editor" class="mini-spinner" minValue="0" maxValue="200" value="25" style="width:100%;" />
+                    </div>
+                    <div field="isVisible" width="100" typeof="comboboxcolumn" allowSort="true" renderer="onGenderRenderer">
+                        是否显示
+                        <input property="editor" textField="text" valueField="value" class="mini-combobox" style="width:100%;" data="yesNos" />
+                    </div>
+                    <div field="iconResource" width="100" allowSort="true">
+                        图标
+                        <input property="editor" class="mini-textbox" style="width:100%;" />
+                    </div>
+                    <div field="createOn" width="100" headerAlign="center" dateFormat="yyyy-MM-dd" allowSort="true">创建日期</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script type="text/javascript">
+        mini.parse();
+
+        var tree = mini.get("tree1");
+
+        var grid = initGrid("grid1", {
+            url:"/Org/Company/Read"
+        });
+
+        grid.load();
+
+        function add() {
+            mini.open({
+                targetWindow: window,
+
+                url: "/Org/Company/Edit",
+                title: "新增公司",
+                width: 300,
+                height: 200,
+                onload: function () {
+                    var iframe = this.getIFrameEl();
+                    var data = { action: "new" };
+                    console.log("iframe", iframe);
+                },
+                ondestroy: function (action) {
+                    grid.reload();
+                }
+            });
+        }
+
+        function reload() {
+            grid.load();
+        }
+
+        function addTopRow() {
+            var newRow = {
+                isVisible: true,
+            };
+            var index = 0;
+
+            grid.addNode(newRow, index);
+
+        }
+        function removeRow() {
+            var rows = grid.getSelecteds();
+            if (rows.length > 0) {
+                mini.confirm("确定要删除选中的[" + rows.length + "]行数据吗?", "请确认", function (res) {
+                    console.log(res);
+                    if (res == 'ok') {
+                        grid.loading("删除中，请稍后......");
+                        $.ajax({
+                            url: "/sys/menu/delete",
+                            contentType: 'application/json',
+                            datType: "JSON",
+                            data: JSON.stringify({ ids: [rows[0].id] }),
+                            type: "POST",
+                            success: function (text) {
+                                grid.reload();
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                alert(jqXHR.responseText);
+                                grid.unmask();
+                            }
+                        });
+
+                    }
+                });
+
+            }
+            else {
+                mini.alert("请选中要删除的行!");
+            }
+        }
+        function saveData() {
+
+            var data = grid.getChanges();
+
+
+            grid.loading("保存中，请稍后......");
+            $.ajax({
+                url: "/sys/menu/batchHanlde",
+                contentType: 'application/json',
+                datType: "JSON",
+                data: JSON.stringify({ entitys: data }),
+                type: "POST",
+                success: function (text) {
+                    grid.reload();
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert(jqXHR.responseText);
+                    grid.unmask();
+                }
+            });
+        }
+    </script>
+}
+

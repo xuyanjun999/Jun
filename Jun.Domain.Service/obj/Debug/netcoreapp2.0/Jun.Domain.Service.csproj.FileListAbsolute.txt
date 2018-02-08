@@ -7,3 +7,18 @@ C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.A
 C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.AssemblyInfo.cs
 C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.dll
 C:\SGProject\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Domain.Service.deps.json
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Domain.Service.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Domain.Service.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.csproj.CoreCompileInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.AssemblyInfoInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.AssemblyInfo.cs
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\obj\Debug\netcoreapp2.0\Jun.Domain.Service.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Core.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Data.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Data.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Core.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Service\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb

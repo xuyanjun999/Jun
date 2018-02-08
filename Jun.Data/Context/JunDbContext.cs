@@ -1,5 +1,6 @@
 ﻿using Jun.Core.Dependency;
 using Jun.Core.Reflection;
+using Jun.Domain.Entity.Org;
 using Jun.Domain.Entity.Sys;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,19 +11,20 @@ namespace Jun.Data.Context
 {
     public class JunDbContext : DbContext
     {
+
+        public DbSet<MenuEntity> Menus { get; set; }
+
+        public DbSet<CompanyEntity> Companys { get; set; }
+
         public JunDbContext(DbContextOptions options) : base(options)
         {
 
         }
 
-        public DbSet<MenuEntity> dbSet { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            //var typeFinder = IocManager.Instance.Resolve<ITypeFinder>();
-
-            var typeFinder = new TypeFinder();
+            var typeFinder = IocManager.Instance.Resolve<ITypeFinder>();
 
             var typeMaps = typeFinder.Find(typeof(IEntityTypeConfiguration<>));
 

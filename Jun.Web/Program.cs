@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using NLog.Web;
 
 namespace Jun.Web
 {
@@ -19,7 +20,9 @@ namespace Jun.Web
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+             .UseUrls("http://192.168.1.135:12356")
                 .UseStartup<Startup>()
+                .UseNLog()
                 .Build();
     }
 }

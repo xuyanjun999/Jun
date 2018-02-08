@@ -24,8 +24,7 @@
         <div class="mini-splitter" style="width: 100%; height: 100%;" borderstyle="border:0;">
             <div size="180" maxsize="250" minsize="180" showcollapsebutton="true">
                 <!--Tree-->
-                <div id="leftTree" class="mini-outlooktree" url="/Home/GetNavigationTree" onnodeclick="onNodeClick"
-                     textfield="text" idfield="id" parentfield="pid" iconfield="icon">
+                <div id="leftTree" class="mini-outlooktree"  onnodeclick="onNodeClick">
                 </div>
             </div>
             <div showcollapsebutton="false">
@@ -51,6 +50,12 @@
         var mainTabs = mini.get("tabs1");
         var currentTab = null;
 
+        var leftTree = initTree("leftTree", {
+            autoLoad: false,
+            url:"/Home/GetNavigationTree"
+        });
+       // leftTree.load();
+
         //页面初始化
         function onPageLoad() {
             var week = ['日', '一', '二', '三', '四', '五', '六'];
@@ -66,11 +71,12 @@
 
         //选中菜单栏
         function onNodeClick(e) {
+            
             var node = e.node;
             var isLeaf = e.isLeaf;
             if (isLeaf) {
                 var tabs = mini.get("mainTabs");
-                var id = "tab$" + node.id;
+                var id = "tab$" + node.Id;
                 var tab = tabs.getTab(id);
                 if (!tab) {
                     if (tabs.tabs.length > 9) {
@@ -81,8 +87,8 @@
                     tab.name = id;
                     tab.title = node.text;
                     tab.showCloseButton = true;
-                    tab.url = node.url;
-                    tab.iconCls = node.icon;
+                    tab.url = node.Url;
+                    tab.iconCls = node.iconCls;
                     tabs.addTab(tab);
                 }
                 tabs.activeTab(tab);

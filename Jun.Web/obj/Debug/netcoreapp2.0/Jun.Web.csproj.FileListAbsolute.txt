@@ -9,3 +9,14 @@ F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.Assem
 F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.AssemblyInfo.cs
 F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.dll
 F:\Visual Studio 2017\Projects\Jun\Jun.Web\obj\Debug\netcoreapp2.0\Jun.Web.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Core.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Data.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Data.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Core.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\nlog.config
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Domain.Service.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Domain.Service.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Service.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Web\bin\Debug\netcoreapp2.0\Jun.Service.pdb

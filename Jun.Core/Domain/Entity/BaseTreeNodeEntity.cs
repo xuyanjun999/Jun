@@ -35,7 +35,7 @@ namespace Jun.Core.Domain.Entity
         /// 
         /// </summary>
         [NotMapped]
-        public virtual string Img { get; set; }
+        public virtual string IconCls { get; set; }
         /// <summary>
         /// 
         /// </summary>

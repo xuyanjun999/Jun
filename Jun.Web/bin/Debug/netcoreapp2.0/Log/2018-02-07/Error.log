@@ -1,0 +1,259 @@
+2018-02-07 09:01:25.6594 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 09:03:54.4817 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 09:04:25.0654 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 09:05:10.8735 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 09:06:31.7502 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 10:16:14.6095 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (176ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Code`, `m`.`CreateOn`, `m`.`CreateStaffName`, `m`.`CreateUserId`, `m`.`IconResource`, `m`.`IsVisible`, `m`.`Name`, `m`.`ParentId`, `m`.`Remark`, `m`.`SequenceIndex`, `m`.`Status`, `m`.`UpdateOn`, `m`.`UpdateStaffName`, `m`.`UpdateUserId`, `m`.`Url`
+FROM `SGEAP_Sys_Menu` AS `m`
+WHERE `m`.`Status` = 0
+2018-02-07 10:16:14.8104 Microsoft.EntityFrameworkCore.Query An exception occurred in the database while iterating the results of a query for context type 'Jun.Data.Context.JunDbContext'.
+System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   at MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 92
+   at MySql.Data.MySqlClient.MySqlDataReader.<ReadFirstResultSetAsync>d__65.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 297
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlDataReader.<CreateAsync>d__64.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 287
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySqlConnector.Core.TextCommandExecutor.<ExecuteReaderAsync>d__3.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 70
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 172
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.<ExecuteAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-02-07 10:16:15.1092 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 10:16:15.2643 Microsoft.AspNetCore.Server.Kestrel Connection id "0HLBDOM2RM3U6", Request id "0HLBDOM2RM3U6:00000003": An unhandled exception was thrown by the application.
+2018-02-07 13:54:14.1873 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Code`, `m`.`CreateOn`, `m`.`CreateStaffName`, `m`.`CreateUserId`, `m`.`IconResource`, `m`.`IsVisible`, `m`.`Name`, `m`.`ParentId`, `m`.`Remark`, `m`.`SequenceIndex`, `m`.`Status`, `m`.`UpdateOn`, `m`.`UpdateStaffName`, `m`.`UpdateUserId`, `m`.`Url`
+FROM `SGEAP_Sys_Menu` AS `m`
+WHERE `m`.`Status` = 0
+2018-02-07 13:54:14.4874 Microsoft.EntityFrameworkCore.Query An exception occurred in the database while iterating the results of a query for context type 'Jun.Data.Context.JunDbContext'.
+System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   at MySqlConnector.Protocol.Serialization.SocketByteHandler.WriteBytesAsync(ArraySegment`1 data, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\SocketByteHandler.cs:line 81
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.WritePacketAsync(IByteHandler byteHandler, Int32 sequenceNumber, ArraySegment`1 contents, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 531
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.WritePayloadAsync(IByteHandler byteHandler, Func`1 getNextSequenceNumber, ArraySegment`1 payload, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\ProtocolUtility.cs:line 508
+   at MySqlConnector.Protocol.Serialization.StandardPayloadHandler.WritePayloadAsync(ArraySegment`1 payload, IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Protocol\Serialization\StandardPayloadHandler.cs:line 40
+   at MySqlConnector.Core.ServerSession.SendReplyAsync(PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 521
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySqlConnector.Core.ServerSession.TryAsyncContinuation(Task`1 task) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 851
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   at MySqlConnector.Core.TextCommandExecutor.<ExecuteReaderAsync>d__3.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 172
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.<ExecuteAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-02-07 13:54:14.7072 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 13:54:14.9544 Microsoft.AspNetCore.Server.Kestrel Connection id "0HLBDQH8H3D5C", Request id "0HLBDQH8H3D5C:00000005": An unhandled exception was thrown by the application.
+2018-02-07 13:55:15.5309 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Code`, `m`.`CreateOn`, `m`.`CreateStaffName`, `m`.`CreateUserId`, `m`.`IconResource`, `m`.`IsVisible`, `m`.`Name`, `m`.`ParentId`, `m`.`Remark`, `m`.`SequenceIndex`, `m`.`Status`, `m`.`UpdateOn`, `m`.`UpdateStaffName`, `m`.`UpdateUserId`, `m`.`Url`
+FROM `SGEAP_Sys_Menu` AS `m`
+WHERE `m`.`Status` = 0
+2018-02-07 13:55:15.5751 Microsoft.EntityFrameworkCore.Query An exception occurred in the database while iterating the results of a query for context type 'Jun.Data.Context.JunDbContext'.
+System.InvalidOperationException: Expected state to be Connected but was Failed.
+   at MySqlConnector.Core.ServerSession.VerifyState(State state) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 882
+   at MySqlConnector.Core.ServerSession.StartQuerying(MySqlCommand command) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 121
+   at MySqlConnector.Core.TextCommandExecutor.<ExecuteReaderAsync>d__3.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 172
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.<ExecuteAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-02-07 13:55:15.6638 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 13:55:15.8193 Microsoft.AspNetCore.Server.Kestrel Connection id "0HLBDQH8H3D5B", Request id "0HLBDQH8H3D5B:00000004": An unhandled exception was thrown by the application.
+2018-02-07 13:55:20.2523 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Code`, `m`.`CreateOn`, `m`.`CreateStaffName`, `m`.`CreateUserId`, `m`.`IconResource`, `m`.`IsVisible`, `m`.`Name`, `m`.`ParentId`, `m`.`Remark`, `m`.`SequenceIndex`, `m`.`Status`, `m`.`UpdateOn`, `m`.`UpdateStaffName`, `m`.`UpdateUserId`, `m`.`Url`
+FROM `SGEAP_Sys_Menu` AS `m`
+WHERE `m`.`Status` = 0
+2018-02-07 13:55:20.3400 Microsoft.EntityFrameworkCore.Query An exception occurred in the database while iterating the results of a query for context type 'Jun.Data.Context.JunDbContext'.
+System.InvalidOperationException: Expected state to be Connected but was Failed.
+   at MySqlConnector.Core.ServerSession.VerifyState(State state) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 882
+   at MySqlConnector.Core.ServerSession.StartQuerying(MySqlCommand command) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 121
+   at MySqlConnector.Core.TextCommandExecutor.<ExecuteReaderAsync>d__3.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 172
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.<ExecuteAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-02-07 13:55:20.4702 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 13:55:20.6097 Microsoft.AspNetCore.Server.Kestrel Connection id "0HLBDQH8H3D5G", Request id "0HLBDQH8H3D5G:00000004": An unhandled exception was thrown by the application.
+2018-02-07 14:37:20.4538 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (165ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Code`, `m`.`CreateOn`, `m`.`CreateStaffName`, `m`.`CreateUserId`, `m`.`IconResource`, `m`.`IsVisible`, `m`.`Name`, `m`.`ParentId`, `m`.`Remark`, `m`.`SequenceIndex`, `m`.`Status`, `m`.`UpdateOn`, `m`.`UpdateStaffName`, `m`.`UpdateUserId`, `m`.`Url`
+FROM `SGEAP_Sys_Menu` AS `m`
+WHERE `m`.`Status` = 0
+2018-02-07 14:37:20.6139 Microsoft.EntityFrameworkCore.Query An exception occurred in the database while iterating the results of a query for context type 'Jun.Data.Context.JunDbContext'.
+System.Net.Sockets.SocketException (0x80004005): 远程主机强迫关闭了一个现有的连接。
+   at MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet(ResultSet resultSet) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 92
+   at MySql.Data.MySqlClient.MySqlDataReader.<ReadFirstResultSetAsync>d__65.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 297
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlDataReader.<CreateAsync>d__64.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 287
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySqlConnector.Core.TextCommandExecutor.<ExecuteReaderAsync>d__3.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 70
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 172
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.<ExecuteAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-02-07 14:37:20.7468 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 14:37:20.8769 Microsoft.AspNetCore.Server.Kestrel Connection id "0HLBDTTUDMKRA", Request id "0HLBDTTUDMKRA:00000003": An unhandled exception was thrown by the application.
+2018-02-07 14:37:34.2199 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Code`, `m`.`CreateOn`, `m`.`CreateStaffName`, `m`.`CreateUserId`, `m`.`IconResource`, `m`.`IsVisible`, `m`.`Name`, `m`.`ParentId`, `m`.`Remark`, `m`.`SequenceIndex`, `m`.`Status`, `m`.`UpdateOn`, `m`.`UpdateStaffName`, `m`.`UpdateUserId`, `m`.`Url`
+FROM `SGEAP_Sys_Menu` AS `m`
+WHERE `m`.`Status` = 0
+2018-02-07 14:37:34.3329 Microsoft.EntityFrameworkCore.Query An exception occurred in the database while iterating the results of a query for context type 'Jun.Data.Context.JunDbContext'.
+System.InvalidOperationException: Expected state to be Connected but was Failed.
+   at MySqlConnector.Core.ServerSession.VerifyState(State state) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 882
+   at MySqlConnector.Core.ServerSession.StartQuerying(MySqlCommand command) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 121
+   at MySqlConnector.Core.TextCommandExecutor.<ExecuteReaderAsync>d__3.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 172
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.<ExecuteAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-02-07 14:37:34.4068 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 14:37:34.4934 Microsoft.AspNetCore.Server.Kestrel Connection id "0HLBDTTUDMKRM", Request id "0HLBDTTUDMKRM:00000001": An unhandled exception was thrown by the application.
+2018-02-07 14:37:56.9498 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Code`, `m`.`CreateOn`, `m`.`CreateStaffName`, `m`.`CreateUserId`, `m`.`IconResource`, `m`.`IsVisible`, `m`.`Name`, `m`.`ParentId`, `m`.`Remark`, `m`.`SequenceIndex`, `m`.`Status`, `m`.`UpdateOn`, `m`.`UpdateStaffName`, `m`.`UpdateUserId`, `m`.`Url`
+FROM `SGEAP_Sys_Menu` AS `m`
+WHERE `m`.`Status` = 0
+2018-02-07 14:37:56.9935 Microsoft.EntityFrameworkCore.Query An exception occurred in the database while iterating the results of a query for context type 'Jun.Data.Context.JunDbContext'.
+System.InvalidOperationException: Expected state to be Connected but was Failed.
+   at MySqlConnector.Core.ServerSession.VerifyState(State state) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 882
+   at MySqlConnector.Core.ServerSession.StartQuerying(MySqlCommand command) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 121
+   at MySqlConnector.Core.TextCommandExecutor.<ExecuteReaderAsync>d__3.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 172
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.<ExecuteAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-02-07 14:37:57.1677 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 14:37:57.2654 Microsoft.AspNetCore.Server.Kestrel Connection id "0HLBDTTUDMKRI", Request id "0HLBDTTUDMKRI:00000008": An unhandled exception was thrown by the application.
+2018-02-07 14:38:08.5782 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Code`, `m`.`CreateOn`, `m`.`CreateStaffName`, `m`.`CreateUserId`, `m`.`IconResource`, `m`.`IsVisible`, `m`.`Name`, `m`.`ParentId`, `m`.`Remark`, `m`.`SequenceIndex`, `m`.`Status`, `m`.`UpdateOn`, `m`.`UpdateStaffName`, `m`.`UpdateUserId`, `m`.`Url`
+FROM `SGEAP_Sys_Menu` AS `m`
+WHERE `m`.`Status` = 0
+2018-02-07 14:38:08.6328 Microsoft.EntityFrameworkCore.Query An exception occurred in the database while iterating the results of a query for context type 'Jun.Data.Context.JunDbContext'.
+System.InvalidOperationException: Expected state to be Connected but was Failed.
+   at MySqlConnector.Core.ServerSession.VerifyState(State state) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 882
+   at MySqlConnector.Core.ServerSession.StartQuerying(MySqlCommand command) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 121
+   at MySqlConnector.Core.TextCommandExecutor.<ExecuteReaderAsync>d__3.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 172
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.<ExecuteAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-02-07 14:38:08.7849 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 14:38:08.9023 Microsoft.AspNetCore.Server.Kestrel Connection id "0HLBDTTUDMKRK", Request id "0HLBDTTUDMKRK:00000007": An unhandled exception was thrown by the application.
+2018-02-07 14:38:15.3399 Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Code`, `m`.`CreateOn`, `m`.`CreateStaffName`, `m`.`CreateUserId`, `m`.`IconResource`, `m`.`IsVisible`, `m`.`Name`, `m`.`ParentId`, `m`.`Remark`, `m`.`SequenceIndex`, `m`.`Status`, `m`.`UpdateOn`, `m`.`UpdateStaffName`, `m`.`UpdateUserId`, `m`.`Url`
+FROM `SGEAP_Sys_Menu` AS `m`
+WHERE `m`.`Status` = 0
+2018-02-07 14:38:15.4115 Microsoft.EntityFrameworkCore.Query An exception occurred in the database while iterating the results of a query for context type 'Jun.Data.Context.JunDbContext'.
+System.InvalidOperationException: Expected state to be Connected but was Failed.
+   at MySqlConnector.Core.ServerSession.VerifyState(State state) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 882
+   at MySqlConnector.Core.ServerSession.StartQuerying(MySqlCommand command) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 121
+   at MySqlConnector.Core.TextCommandExecutor.<ExecuteReaderAsync>d__3.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\TextCommandExecutor.cs:line 66
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlCommand.cs:line 172
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.<ExecuteAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlRelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-02-07 14:38:15.5476 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-07 14:38:15.6651 Microsoft.AspNetCore.Server.Kestrel Connection id "0HLBDTTUDMKRH", Request id "0HLBDTTUDMKRH:00000006": An unhandled exception was thrown by the application.
+2018-02-07 15:31:31.8671 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request

@@ -18,3 +18,11 @@ C:\SGProject\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.dll
 C:\SGProject\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.pdb
 C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
 C:\SGProject\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Data.deps.json
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Data.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Data.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Core.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Data\obj\Debug\netcoreapp2.0\Jun.Data.pdb

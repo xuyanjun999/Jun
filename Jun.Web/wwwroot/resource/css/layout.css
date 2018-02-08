@@ -11,7 +11,7 @@
 }
 
 .header {
-    background: url(../SourceFiles/Images/Core/header.gif) repeat-x 0 -1px;
+    background: url(/resource/images/header.gif) repeat-x 0 -1px;
 }
 
 body .header .topNav {

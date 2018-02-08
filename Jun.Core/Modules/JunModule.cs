@@ -25,10 +25,12 @@ namespace Jun.Core.Modules
 
             //Scope
             builder.RegisterAssemblyTypes(this.ThisAssembly).Where(t => typeof(IScopedDependency).IsAssignableFrom(t))
-        .AsImplementedInterfaces().AsSelf().InstancePerRequest();
+        .AsImplementedInterfaces().AsSelf().InstancePerLifetimeScope();
 
             base.Load(builder);
         }
+
+
 
     }
 }

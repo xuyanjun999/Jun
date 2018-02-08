@@ -15,3 +15,18 @@ C:\SGProject\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.dll
 C:\SGProject\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.pdb
 C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
 C:\SGProject\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.deps.json
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.runtimeconfig.json
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.runtimeconfig.dev.json
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.DataMigrate.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Core.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Core.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.csproj.CoreCompileInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.AssemblyInfoInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.AssemblyInfo.cs
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.DataMigrate\obj\Debug\netcoreapp2.0\Jun.DataMigrate.pdb

@@ -15,6 +15,20 @@
           "lib/netstandard1.1/Autofac.dll": {}
         }
       },
+      "Autofac.Extensions.DependencyInjection/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "4.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -2901,6 +2915,44 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "NLog/4.5.0-rc02": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Extensions.Logging/1.0.0-rtm-rc4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.0.0",
+          "NLog": "[4.5.0-rc02, 5.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.Extensions.Logging.dll": {}
+        }
+      },
+      "NLog.Web.AspNetCore/4.5.0-rc2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http": "2.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.0",
+          "Microsoft.AspNetCore.Routing.Abstractions": "2.0.0",
+          "NLog.Extensions.Logging": "1.0.0-rtm-rc4"
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.Web.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.Web.AspNetCore.dll": {}
+        }
+      },
       "NuGet.Frameworks/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -5156,6 +5208,8 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "Autofac": "4.6.2",
+          "Autofac.Extensions.DependencyInjection": "4.2.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.0.1",
           "Microsoft.AspNetCore.Http.Features": "2.0.1"
         },
         "compile": {
@@ -5197,6 +5251,33 @@
         "runtime": {
           "bin/placeholder/Jun.Domain.Entity.dll": {}
         }
+      },
+      "Jun.Domain.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Jun.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Jun.Domain.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jun.Domain.Service.dll": {}
+        }
+      },
+      "Jun.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Jun.Data": "1.0.0",
+          "Jun.Domain.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Jun.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jun.Service.dll": {}
+        }
       }
     }
   },
@@ -5212,6 +5293,17 @@
         "lib/net45/Autofac.xml",
         "lib/netstandard1.1/Autofac.dll",
         "lib/netstandard1.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/4.2.0": {
+      "sha512": "cqBmgg9y7ahGbt7CPdvZFL6bA0PEwFyhIofUoUxEteZc+d0yNnE6ZvIWxHEM2F2HPJlC9SRnHWiZQq8r53moAw==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/4.2.0",
+      "files": [
+        "autofac.extensions.dependencyinjection.4.2.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.xml"
       ]
     },
     "Libuv/1.10.0": {
@@ -8193,6 +8285,71 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "NLog/4.5.0-rc02": {
+      "sha512": "O/zi4fpOqfAiBdpPx7hwUKuMVB0Y4qA/nBkIHUmSoBZASfKKEu7ND1saW1Ga9ipw8QJQjhpH9PwvTVngbkVp0g==",
+      "type": "package",
+      "path": "nlog/4.5.0-rc02",
+      "files": [
+        "lib/monoandroid44/NLog.dll",
+        "lib/monoandroid44/NLog.xml",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40-client/NLog.dll",
+        "lib/net40-client/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "lib/uap10.0/NLog.dll",
+        "lib/uap10.0/NLog.xml",
+        "lib/wp8/NLog.dll",
+        "lib/wp8/NLog.xml",
+        "lib/xamarinios10/NLog.dll",
+        "lib/xamarinios10/NLog.xml",
+        "nlog.4.5.0-rc02.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
+    "NLog.Extensions.Logging/1.0.0-rtm-rc4": {
+      "sha512": "C2DtkgDDogqWSAHUvcCt/mOrGFA1W4oS2T+ibg0BeSc2t37l5KetkERQNpHvCxgeJRxYewLuWz0RTS8DPa36Vw==",
+      "type": "package",
+      "path": "nlog.extensions.logging/1.0.0-rtm-rc4",
+      "files": [
+        "lib/net451/NLog.Extensions.Logging.dll",
+        "lib/net451/NLog.Extensions.Logging.xml",
+        "lib/net461/NLog.Extensions.Logging.dll",
+        "lib/net461/NLog.Extensions.Logging.xml",
+        "lib/netstandard1.5/NLog.Extensions.Logging.dll",
+        "lib/netstandard1.5/NLog.Extensions.Logging.xml",
+        "lib/netstandard2.0/NLog.Extensions.Logging.dll",
+        "lib/netstandard2.0/NLog.Extensions.Logging.xml",
+        "nlog.extensions.logging.1.0.0-rtm-rc4.nupkg.sha512",
+        "nlog.extensions.logging.nuspec"
+      ]
+    },
+    "NLog.Web.AspNetCore/4.5.0-rc2": {
+      "sha512": "o0dCKaLDYk91gpagbujo84a1hOu75v97ChLV6L3ZG80/DYjPkmrp0y4f++U9v/emP6lyeJUieiKRHu+z6mp0SA==",
+      "type": "package",
+      "path": "nlog.web.aspnetcore/4.5.0-rc2",
+      "files": [
+        "lib/net451/NLog.Web.AspNetCore.dll",
+        "lib/net451/NLog.Web.AspNetCore.xml",
+        "lib/net461/NLog.Web.AspNetCore.dll",
+        "lib/net461/NLog.Web.AspNetCore.xml",
+        "lib/netstandard1.5/NLog.Web.AspNetCore.dll",
+        "lib/netstandard1.5/NLog.Web.AspNetCore.xml",
+        "lib/netstandard2.0/NLog.Web.AspNetCore.dll",
+        "lib/netstandard2.0/NLog.Web.AspNetCore.xml",
+        "nlog.web.aspnetcore.4.5.0-rc2.nupkg.sha512",
+        "nlog.web.aspnetcore.nuspec"
       ]
     },
     "NuGet.Frameworks/4.0.0": {
@@ -13448,15 +13605,30 @@
       "type": "project",
       "path": "../Jun.Domain.Entity/Jun.Domain.Entity.csproj",
       "msbuildProject": "../Jun.Domain.Entity/Jun.Domain.Entity.csproj"
+    },
+    "Jun.Domain.Service/1.0.0": {
+      "type": "project",
+      "path": "../Jun.Domain.Service/Jun.Domain.Service.csproj",
+      "msbuildProject": "../Jun.Domain.Service/Jun.Domain.Service.csproj"
+    },
+    "Jun.Service/1.0.0": {
+      "type": "project",
+      "path": "../Jun.Service/Jun.Service.csproj",
+      "msbuildProject": "../Jun.Service/Jun.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Autofac >= 4.6.2",
+      "Autofac.Extensions.DependencyInjection >= 4.2.0",
       "Jun.Data >= 1.0.0",
+      "Jun.Domain.Service >= 1.0.0",
+      "Jun.Service >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.2",
+      "NLog.Web.AspNetCore >= 4.5.0-rc2"
     ]
   },
   "packageFolders": {
@@ -13494,6 +13666,12 @@
           "projectReferences": {
             "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Data\\Jun.Data.csproj": {
               "projectPath": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Data\\Jun.Data.csproj"
+            },
+            "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Domain.Service\\Jun.Domain.Service.csproj": {
+              "projectPath": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Domain.Service\\Jun.Domain.Service.csproj"
+            },
+            "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Service\\Jun.Service.csproj": {
+              "projectPath": "F:\\Visual Studio 2017\\Projects\\Jun\\Jun.Service\\Jun.Service.csproj"
             }
           }
         }
@@ -13507,6 +13685,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.6.2, )"
+          },
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.5, )"
@@ -13523,6 +13709,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.0.2, )"
+          },
+          "NLog.Web.AspNetCore": {
+            "target": "Package",
+            "version": "[4.5.0-rc2, )"
           }
         },
         "imports": [

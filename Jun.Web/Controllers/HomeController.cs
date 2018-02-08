@@ -5,11 +5,29 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Jun.Web.Models;
+using Jun.Data.Repository;
+using Microsoft.Extensions.Logging;
+using Jun.Domain.Service.Sys;
+using Jun.Core.Dependency;
+using Jun.Domain.Service.Org;
+using Jun.Domain.Entity.Sys;
+using Jun.Core.Dto;
 
 namespace Jun.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : JunController<MenuEntity>
     {
+
+        private readonly IMenuService _menuService;
+
+        private readonly ICompanyService _companyService;
+
+        public HomeController( IMenuService menuService, ICompanyService companyService)
+        {
+            this._menuService = menuService;
+            this._companyService = companyService;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -36,36 +54,20 @@ namespace Jun.Web.Controllers
 
         public IActionResult DashBoard()
         {
+            if(_companyService.Repository==_menuService.Repository)
+            {
+                string a = "";
+            }
             return View();
         }
 
         public IActionResult GetNavigationTree()
         {
-            List<TreeItem> list = new List<TreeItem>();
-            list.Add(new TreeItem()
-            {
-                id = 1,
-                Text = "合同管理"
-            });
-            list.Add(new TreeItem()
-            {
-                id = 2,
-                pid = 1,
-                Text = "合同登记"
-            });
-            list.Add(new TreeItem()
-            {
-                id = 3,
-                pid = 1,
-                Text = "合同报价"
-            });
-            list.Add(new TreeItem()
-            {
-                id = 4,
-                pid = 3,
-                Text = "电梯商务报价"
-            });
-            return Json(list);
+            RestResponseDto res = new RestResponseDto();
+            var list = _menuService.Repository.GetQueryExp<MenuEntity>(null).ToArray();
+            res.Data = list;
+            res.Success = true;
+            return Json(res);
         }
     }
 

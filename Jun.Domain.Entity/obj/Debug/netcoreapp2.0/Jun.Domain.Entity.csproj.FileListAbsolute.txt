@@ -11,3 +11,16 @@ C:\SGProject\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Core.pdb
 C:\SGProject\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml
 C:\SGProject\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
 C:\SGProject\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.deps.json
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Core.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Jun.Core.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.csproj.CoreCompileInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.AssemblyInfoInputs.cache
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.AssemblyInfo.cs
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\obj\Debug\netcoreapp2.0\Jun.Domain.Entity.pdb
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Newtonsoft.Json.dll
+F:\Visual Studio 2017\Projects\Jun\Jun.Domain.Entity\bin\Debug\netcoreapp2.0\Newtonsoft.Json.xml

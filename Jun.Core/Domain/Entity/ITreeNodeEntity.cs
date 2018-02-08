@@ -24,7 +24,7 @@ namespace Jun.Core.Domain.Entity
         /// <summary>
         /// 图标资源
         /// </summary>
-        string Img { get; set; }
+        string IconCls { get; set; }
 
         /// <summary>
         /// 节点是否已经勾选

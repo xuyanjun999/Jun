@@ -1,0 +1,44 @@
+2018-02-05 13:14:49.1173 Jun.Web.Controllers.HomeController 13330698
+2018-02-05 13:14:49.1507 Jun.Web.Controllers.HomeController 62569468
+2018-02-05 13:14:49.2088 Jun.Web.Controllers.HomeController 嘿嘿
+2018-02-05 13:14:49.5043 Jun.Web.Controllers.HomeController 63010521
+2018-02-05 13:14:49.5043 Jun.Web.Controllers.HomeController 62569468
+2018-02-05 13:14:50.0836 Jun.Web.Controllers.HomeController 50627553
+2018-02-05 13:14:50.0836 Jun.Web.Controllers.HomeController 62569468
+2018-02-05 13:17:04.8023 Jun.Web.Controllers.HomeController dashbegin
+2018-02-05 13:17:05.2060 Jun.Web.Controllers.HomeController 66496106
+2018-02-05 13:17:05.2574 Jun.Web.Controllers.HomeController 24828593
+2018-02-05 13:17:05.2779 Jun.Web.Controllers.HomeController dashend
+2018-02-05 13:20:33.8660 Jun.Web.Controllers.HomeController dashbegin
+2018-02-05 13:20:34.0919 Jun.Web.Controllers.HomeController 31853378
+2018-02-05 13:20:45.0760 Jun.Web.Controllers.HomeController dashend
+2018-02-05 13:24:46.6293 Jun.Web.Controllers.HomeController dashbegin
+2018-02-05 13:24:46.7207 Jun.Web.Controllers.HomeController 15556277
+2018-02-05 13:27:47.0272 Jun.Web.Controllers.HomeController dashbegin
+2018-02-05 13:27:47.0963 Jun.Web.Controllers.HomeController 67101022
+2018-02-05 13:27:52.2869 Jun.Web.Controllers.HomeController dashend
+2018-02-05 13:29:21.3853 Jun.Web.Controllers.HomeController dashbegin
+2018-02-05 13:29:21.4083 Jun.Web.Controllers.HomeController 67101022
+2018-02-05 16:12:21.8442 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:13:13.7421 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:14:07.4124 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:17:33.9885 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:19:15.7306 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:19:47.0041 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:27:59.9887 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:31:24.8637 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:32:58.9658 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:34:17.9994 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:38:39.4950 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:39:47.6234 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:40:06.5692 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:40:43.6787 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:41:49.5128 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:42:52.7573 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:43:48.0452 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:46:15.1971 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:46:25.8056 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:46:41.3864 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:46:59.6066 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:48:42.3003 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request
+2018-02-05 16:49:13.5820 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request

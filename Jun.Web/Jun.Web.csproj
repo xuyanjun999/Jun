@@ -5,9 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.5.0-rc2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,6 +19,21 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Jun.Data\Jun.Data.csproj" />
+    <ProjectReference Include="..\Jun.Domain.Service\Jun.Domain.Service.csproj" />
+    <ProjectReference Include="..\Jun.Service\Jun.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="nlog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Org\Data\" />
+    <Folder Include="Areas\Org\Models\" />
+    <Folder Include="Areas\Sys\Data\" />
+    <Folder Include="Areas\Sys\Models\" />
   </ItemGroup>
 
 </Project>

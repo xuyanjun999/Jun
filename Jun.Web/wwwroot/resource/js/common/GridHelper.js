@@ -11,6 +11,37 @@
 数据查询 Begin
 ****/
 
+function initGrid(gridId, option) {
+    var grid = mini.get(gridId);
+    option = option || {};
+    if (grid) {
+        var o = {
+            pageSize: 50,
+            sizeList: [50, 100],
+            ajaxType: 'post',
+            idField: 'Id',
+            sortField: 'Id',
+            sortOrder: 'desc',
+            pageIndexField: 'pageIndex',
+            pageSizeField: 'pageSize',
+            totalField: 'Total',
+            dataField: 'Data',
+            cellEditAction: 'celldblclick',
+            multiSelect: true,
+            allowAlternating: true,
+            showEmptyText: true,
+            emptyText: '当前查询条件无数据',
+            showColumnsMenu: true,
+            showSortIcon: true,
+        };
+        option = Object.assign(o, option);
+        grid.set(option);
+        return grid;
+    }
+}
+
+
+
 //GRID数据查询
 function search(grid, isResetGrid) {
     if (typeof (onBeforeSearch) != "undefined") {

@@ -41,6 +41,9 @@
 	background:url(icons/help.gif) no-repeat;
 	
 }
+.icon-home {
+    background: url(icons/home.png) no-repeat;
+}
 .icon-undo{
 	background:url(icons/undo.gif) no-repeat;
 }
@@ -125,4 +128,7 @@
 }
 .icon-logout {
     background: url(icons/logout.gif) no-repeat;
+}
+.icon-plain {
+    background: url(icons/paste_plain.png) no-repeat;
 }
